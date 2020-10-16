@@ -11,7 +11,7 @@ input.onButtonPressed(Button.A, function () {
     y = 0
     r = 1
     d = 1
-    while (d <= 2 * N) {
+    while (d < 2 * N) {
         k = 0
         while (k < N - d / 2) {
             y += (d % 4 - 1) % 2
